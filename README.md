@@ -1,23 +1,18 @@
 # react-native-quick-sample
-A small and simple example app with navigation, data persistence, listview and animation!
+find restaurants in Chatuchak area.
 
+<p float="left">
+  <img src="home.jpg" alt="home" width="300"/>
+  <img src="search_1.jpg" alt="search_1" width="300"/>
+  <img src="search_2.jpg" alt="search_2" width="300"/>
+</p>
 
-<img src="demo.gif" alt="demo" width="60%"/>
 
 ## Install and run on android
 ```
 npm install -g react-native-cli
-cd react-native-quick-sample
+cd ProjectTest
 npm install
 react-native run-android
 ```
 
-## Install and run on ios
-```
-npm install -g react-native-cli
-cd react-native-quick-sample
-npm install
-react-native run-ios
-```
-
-[innFactory - iOS & Android Entwicklung](https://innFactory.de)
