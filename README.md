@@ -7,6 +7,8 @@ find restaurants in Chatuchak area.
   <img src="search_2.jpg" alt="search_2" width="300"/>
 </p>
 
+## Demo for android (.APK file)
+<a href="https://github.com/overpik/MapSearchTest/blob/master/app-release.apk">app-release.apk</a>
 
 ## Install and run on android
 ```
