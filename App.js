@@ -1,34 +1,15 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
 import React, { useState, useEffect, useRef } from 'react';
 import {
-  SafeAreaView,
   ScrollView,
-  StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
   Dimensions,
   TouchableOpacity,
   Modal,
   Image,
-  Alert
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 import MapView, { Camera } from 'react-native-maps';
 import SearchBar from 'react-native-platform-searchbar';
 import { searchFood } from './src/utils/api';
@@ -44,7 +25,7 @@ const leftIcon = require('./src/assets/icons/left-chevron.png');
 const searchHistoryIcon = require('./src/assets/icons/history.png');
 
 const App = () => {
-  const mapRef = useRef < MapView > (null)
+  const mapRef = useRef()
   const InputRef = useRef()
   const [valueSearch, setValueSearch] = useState('');
   const [stroeView, setStroeView] = useState({
@@ -265,7 +246,6 @@ const App = () => {
                       <View style={styles.blockRating}>
                         <Image style={styles.starIcon} source={ratingIcon} />
                         <Text style={styles.foodRating}>{store.rating}</Text>
-                        {/* <Image style={styles.rateIcon} source={userRateIcon} /> */}
                         <Text style={styles.foodName}>({store.user_ratings_total})</Text>
                       </View>
                     </View>
